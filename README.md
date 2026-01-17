@@ -65,10 +65,12 @@ As principais perguntas abordadas são:
 - **Git**: versionamento do projeto.
 
 ### Entregáveis
-Dashboard interativo com a identidade visual do site do programa.  
+Dashboard interativo com a identidade visual do [site do programa](https://www.fisica.ufmg.br/posgraduacao/corpo-discente/).  
 
+<div align="center">
 
-> **Status**: Em andamento
+![Dashboard Showcase](./Dashboard%20Fisica%20UFMG/PBI/dashboard_showcase.gif)
+
 
 <hr color="#777777">
 
