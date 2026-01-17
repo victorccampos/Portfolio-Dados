@@ -15,7 +15,7 @@
     <span>Mestrando em Física | Transição para Dados/BI</span>
 </p>
 
-**Python • Pandas • Power BI • SQL (em progresso)**
+**Python • Pandas • Power BI •**
 
 <p align="center">
   <a href="#1-dashboard-pós-graduação-em-física-ufmg">Projeto 1</a> •
@@ -55,72 +55,22 @@ acessível, apoiando a compreensão do perfil discente e auxiliando a tomada de 
 As principais perguntas abordadas são:
 - Quantos alunos há por **modalidade** (Mestrado/Doutorado)?
 - Qual a distribuição de alunos por **área de concentração**?
-- Quantos alunos são **bolsistas** e quais **agências** financiam?
-- Como está a distribuição por **orientador(a)**?
-- Quais tendências aparecem em **entradas/terminações** (quando disponível)?
+- Quantos alunos são **bolsistas** e quais **agências** os financiam?
+- Como está a distribuição de alunos por **orientador(a)**?
+- Quais tendências aparecem em **entradas/saídas**?
 
 ### Ferramentas e stack
 - **Jupyter Notebook (Python)**: [ETL dos Dados](./Dashboard%20Fisica%20UFMG/Notebooks/ETL_posgrad_fisicaufmg.ipynb) e [Análise Exploratória Inicial](./Dashboard%20Fisica%20UFMG/Notebooks/EDA_posgrad_fisicaufmg.ipynb)
-- **Power BI**: Dashboard Institucional
+- **Power BI**: Dashboard Instituclional
 - **Git**: versionamento do projeto.
 
 ### Entregáveis
-Dashboard interativo com a identidade visual do site do programa.  
+Dashboard interativo com a identidade visual do [site do programa](https://www.fisica.ufmg.br/posgraduacao/corpo-discente/).  
 
+<div align="center">
 
-> **Status**: Em andamento
+![Dashboard Showcase](./PBI/dashboard_showcase.gif)
 
-<hr color="#777777">
-
-
-<!-- ## 2. Spotify - Dados Pessoais -->
-<!-- 
-<div style="background-color:#0b0b0b; border:1px solid #1f1f1f; border-radius:10px; padding:14px 16px; margin:10px 0;">
-  <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-    <img
-      src="https://open.spotify.com/favicon.ico"
-      alt="Spotify"
-      width="24"
-      height="24"
-      style="border-radius:4px;"
-    >
-    <span style="color:#45d979; font-weight:700; font-size:18px;">
-      2. Spotify — Análise de Dados Pessoais
-    </span>
-    <span style="color:#cfcfcf; font-size:14px;">
-       <strong>user:@victorjvc</strong>
-    </span>
-  </div>
-  <p style="color:#d7d7d7; margin:10px 0 0;">
-    Projeto de exploração de hábitos de escuta a partir dos dados pessoais exportados pelo Spotify.
-  </p>
 </div>
 
-### Contexto e objetivo
-Analisar padrões de consumo musical para responder perguntas como:
-- Quais artistas/músicas aparecem com maior frequência?
-- Como o hábito muda ao longo do tempo?
-- Existe padrão por **dia da semana** ou **horário**?
-- Quais períodos concentram mais tempo de escuta?
-
-### Dados
-- **Fonte**: exportação oficial de dados do Spotify (histórico de streaming).
-- **Conteúdo típico**:
-  - timestamp,
-  - artista,
-  - faixa,
-  - duração/tempo de reprodução,
-  - metadados adicionais (dependendo do pacote exportado).
-
-### Ferramentas e stack
-- **Python**: Pandas (limpeza e agregações)
-- **Visualização**: Matplotlib/Plotly (dependendo do notebook)
-
-### Entregáveis (ideias de páginas/saídas)
-- Ranking de artistas e faixas
-- Séries temporais (escuta por mês/semana)
-- Heatmap por dia da semana × hora (se aplicável)
-- Métricas de “tempo total de escuta” e “média diária”
-
 <hr color="#777777">
- -->
