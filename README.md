@@ -71,12 +71,13 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
 
 ![Dashboard Showcase](./Dashboard%20Fisica%20UFMG/PBI/dashboard_showcase.gif)
 
-
+</div>
 <hr color="#777777">
 
 
 <!-- ## 2. Spotify - Dados Pessoais -->
-<!-- 
+
+
 <div style="background-color:#0b0b0b; border:1px solid #1f1f1f; border-radius:10px; padding:14px 16px; margin:10px 0;">
   <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
     <img
@@ -87,7 +88,7 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
       style="border-radius:4px;"
     >
     <span style="color:#45d979; font-weight:700; font-size:18px;">
-      2. Spotify — Análise de Dados Pessoais
+      <h2>2. Spotify — Análise de Dados Pessoais</h2>
     </span>
     <span style="color:#cfcfcf; font-size:14px;">
        <strong>user:@victorjvc</strong>
@@ -125,4 +126,4 @@ Analisar padrões de consumo musical para responder perguntas como:
 - Métricas de “tempo total de escuta” e “média diária”
 
 <hr color="#777777">
- -->
+
