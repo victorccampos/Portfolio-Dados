@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 .virtual_documents
-.json
-.pdf
+*.json
+*.pdf
+*.mp4
