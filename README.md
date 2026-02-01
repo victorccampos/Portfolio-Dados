@@ -73,7 +73,7 @@ As principais perguntas abordadas são:
   - Os orientadores com mais alunos do programa são os professores Bruce Vega e Mário Sérgio Mazzoni com **7 alunos cada um**. Em segundo lugar o prof. Ângelo Malachias com **6 alunos** e os 4 últimos professores que compõe o top 7 possuem **5 alunos cada**.
   - 🚨 É válido lembrar que esses dados dizem respeito apenas ao programa de Pós-Graduação e, portanto, não é levado em conta orientação em *iniciação científica* da *Graduação em Física*.
 
-- Quais tendências aparecem em **entradas/terminações** (quando disponível)?
+- Quais tendências aparecem em **entradas/terminações**?
   - Há uma crescente evidente no número de alunos do programa, em especial no ano de 2025 com 50 alunos!
 
 ### Ferramentas e stack
@@ -130,8 +130,8 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
 ### Stack
 - **Python**: Pandas (limpeza e agregações)
 - **Visualização**:
-  - **Plotly** + **Streamlit** em  **[📁/dashboard.py](./dashboard.py)**
-  - **Matplotlib** em **[📁Notebooks/EDA-spotify.ipynb](./Notebooks/EDA-spotify.ipynb)**
+  - **Plotly** + **Streamlit** em  **[📁Projeto-Spotify/dashboard.py](Projeto-Spotify/dashboard.py)**
+  - **Matplotlib** em **[📁📁Projeto-Spotify/Notebooks/EDA-spotify.ipynb](Projeto-Spotify/Notebooks/EDA-spotify.ipynb)**
 
 
 ### Dashboard Streamlit
