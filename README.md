@@ -135,13 +135,14 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
 
 
 ### Dashboard Streamlit
-
+![](Projeto-Spotify/video/spotify-streamlit-shocase.gif)
 
 
 <hr color="#45d979">
 
 
 ### Respostas
+Visualizações estáticas com Matplotlib.
 #### Q1 : Qual top10 artistas?
 
 ![](Projeto-Spotify/images/Q1.png)

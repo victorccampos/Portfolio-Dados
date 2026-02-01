@@ -39,7 +39,7 @@
 
 ### Dashboard Streamlit
 
-![](./video/streamlit_showcase.gif)
+![](./video/spotify-streamlit-shocase.gif)
 
 <hr color="#45d979">
 
