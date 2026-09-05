@@ -3,6 +3,14 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import seaborn as sns   
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent
+SPOTIFY_GREEN = "rgb(30, 215, 96)"
+LIGHT_GREEN = "rgb(234, 246, 229)"
+
+PATH_CSV = BASE_DIR / "spotify_data" / "spotify2025.csv"
 
 def seaborn_to_plotly(sns_pallete) -> list[str]:
     """Transforma as paletas do seaborn pro RGB do plotly"""    
@@ -16,17 +24,11 @@ def seaborn_to_plotly(sns_pallete) -> list[str]:
     return plotly_pal
 
 st.set_page_config(page_title="Spotify Dashboard", layout="wide")
+st.image("https://open.spotify.com/favicon.ico", width=50)
 
-SPOTIFY_GREEN = "rgb(30, 215, 96)"
-LIGHT_GREEN = "rgb(234, 246, 229)"
+# main()
 
-src_image: str = "https://open.spotify.com/favicon.ico"
-st.image(src_image, width=50)
-
-
-
-
-df = pd.read_csv("./spotify_data/spotify2025.csv")
+df = pd.read_csv(PATH_CSV)
 df_original = df.copy()
 
 tab_dashboard, tab_dados = st.tabs(["Dashboard", "Dados"])
