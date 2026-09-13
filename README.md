@@ -1,7 +1,7 @@
-# Portfólio em Dados 🎲💻
+# 💼 Projetos em Dados 
 
 
-<p align="left">
+<p align="center">
     <a href="https://www.linkedin.com/in/joaovictorcamposcosta" target="_blank">
         <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
@@ -12,10 +12,10 @@
         <span style="vertical-align:middle; margin-left:6px;"><strong>João Victor Campos</strong></span>
     </a>
     <br>
-    <span>Mestrando em Física | Transição para Dados/BI</span>
+    <span>Mestrando em Física • Transição para Data Science & Analytics</span>
 </p>
 
-**Python • Pandas • Power BI**
+**Python • Power BI • Streamlit • SQL • Git/Github**
 
 <p align="center">
   <a href="#1-dashboard-pós-graduação-em-física-ufmg">Dashboard Pós-Graduação em Física</a> •
@@ -24,17 +24,17 @@
 
 
 <blockquote>
-Este repositório reúne projetos do meu portfólio em <b>Análise de Dados</b> e <b>BI</b>, com foco em:  
+Este repositório reúne projetos do meu portfólio com foco em:  
 
 - **pipeline reprodutível** (extração → limpeza → análise → entrega)  
 - **perguntas claras** e respostas com métricas/visuais  
-- organização e documentação para facilitar leitura e execução. 
+- **organização** e **documentação** para facilitar leitura e execução. 
 
 </blockquote>
 
 <hr color="#777777">
 
-## 1. Dashboard Pós-Graduação em Física (UFMG)
+<h1><a href="https://app.powerbi.com/reportEmbed?reportId=280e166c-af3a-4da4-881a-7f6a93304ed3&autoAuth=true&ctid=64126139-4352-4cd7-b1fb-2a971c6f69a6">Dashboard Pós-Graduação em Física (UFMG)</a></h1>
 
 <p align="center">
   <img
@@ -86,14 +86,13 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
 
 <div align="center">
 
-![Dashboard Showcase](./Dashboard%20Fisica%20UFMG/PBI/dashboard_showcase.gif)
+![Dashboard Showcase](./Dashboard-Fisica-UFMG/PBI/dashboard_showcase.gif)
 
 </div>
 <hr color="#777777">
 
 
 <!-- ## 2. Spotify - Dados Pessoais -->
-
 
 <div style="background-color:#0b0b0b; border:1px solid #1f1f1f; border-radius:10px; padding:14px 16px; margin:10px 0;">
   <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
@@ -105,11 +104,14 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
       style="border-radius:4px;"
     >
     <span style="color:#45d979; font-weight:700; font-size:18px;">
-      <h2>2. Spotify — Análise de Dados Pessoais</h2>
+      <h1>2. Spotify — Análise de Dados Pessoais</h1>
     </span>
     <span style="color:#cfcfcf; font-size:14px;">
-       <strong>user:@victorjvc</strong>
+       <!-- <strong>user:@victorjvc</strong> -->
     </span>
+    <a href="https://portfolio-dados-spotify-victorjvc.streamlit.app/?" target="_blank" rel="noopener noreferrer" style="color:#45d979; text-decoration:none; font-weight:600;">
+      <u> ▶  Clique para acessar o dashboard Streamlit</u>
+    </a>
   </div>
   <p style="color:#d7d7d7; margin:10px 0 0;">
     Um Spotify Wrapped <i>"Home made"</i> para aqueles que não se contentam com suas retrospectivas ao final do ano.
@@ -143,23 +145,32 @@ Dashboard interativo com a identidade visual do [site do programa](https://www.f
 
 ### Respostas
 Visualizações estáticas com Matplotlib.
-#### Q1 : Qual top10 artistas?
 
-![](Projeto-Spotify/images/Q1.png)
-
-
-#### Q2 : Qual o tempo mensal ouvindo música?
-O **tempo médio mensal** foi de ***47 horas***!
-![](Projeto-Spotify/images/Q2.png)
-
-#### Q3: Qual dia da semana mais foi escutado música?
-Quinta-Feira é o dia que mais escutou-se músicas no ano de 2025.
-![](Projeto-Spotify/images/Q3.png)
-
-#### Q4: Qual período do dia concentra mais tempo de escuta?
-Não houve preferência entre tarde e noite, ambas com 45% da vezes!
-
-![](Projeto-Spotify/images/Q4.png)
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <h4>Q1: Qual top10 artistas?</h4>
+      <img src="Projeto-Spotify/images/Q1.png" alt="Top 10 artistas">
+    </td>
+    <td align="center" valign="top">
+      <h4>Q2: Qual o tempo mensal ouvindo música?</h4>
+      <p>O <strong>tempo médio mensal</strong> foi de <em>47 horas</em>!</p>
+      <img src="Projeto-Spotify/images/Q2.png" alt="Tempo mensal ouvindo música">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <h4>Q3: Qual dia da semana mais foi escutado música?</h4>
+      <p>Quinta-Feira é o dia que mais escutou-se músicas no ano de 2025.</p>
+      <img src="Projeto-Spotify/images/Q3.png" alt="Dia da semana mais escutado">
+    </td>
+    <td align="center" valign="top">
+      <h4>Q4: Qual período do dia concentra mais tempo de escuta?</h4>
+      <p>Não houve preferência entre tarde e noite, ambas com 45% da vezes!</p>
+      <img src="Projeto-Spotify/images/Q4.png" alt="Período do dia com mais escuta">
+    </td>
+  </tr>
+</table>
 
 
 <hr color="#45d979">
